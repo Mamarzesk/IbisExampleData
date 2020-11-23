@@ -1,0 +1,323 @@
+<!DOCTYPE configML>
+<configuration>
+ <SaveScene>
+  <IbisVersion value="3.0.0  Dev"/>
+  <IbisRevision value="131a8b2"/>
+  <Version value="6.0"/>
+  <NextObjectID value="5"/>
+  <NumberOfSceneObjects value="6"/>
+  <ObjectList>
+   <ObjectInScene_0>
+    <ObjectClass value="WorldObject"/>
+    <FullFileName value="none"/>
+    <ObjectID value="-2"/>
+    <ParentID value="-1"/>
+    <ObjectName value="World"/>
+    <AllowChildren value="1"/>
+    <AllowChangeParent value="0"/>
+    <ObjectManagedBySystem value="1"/>
+    <ObjectHidden value="0"/>
+    <AllowHiding value="0"/>
+    <ObjectDeletable value="0"/>
+    <NameChangeable value="0"/>
+    <ObjectListable value="1"/>
+    <AllowManualTransformEdit value="0"/>
+    <LocalTransform value="1.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 1.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 1.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 1.0000000000000000e+00 "/>
+   </ObjectInScene_0>
+   <ObjectInScene_1>
+    <ObjectClass value="TripleCutPlaneObject"/>
+    <FullFileName value="none"/>
+    <ObjectID value="-3"/>
+    <ParentID value="-2"/>
+    <ViewPlanes value="0 0 0 "/>
+    <PlanesPosition value="9.4321484901925601e-02 -1.6459118212891141e+01 -4.8841233780575578e+01 "/>
+    <SliceThickness value="1"/>
+    <SliceMixMode>
+     <NumberOfElements value="2"/>
+     <Element_0 value="2"/>
+     <Element_1 value="2"/>
+    </SliceMixMode>
+    <BlendingModeIndices>
+     <NumberOfElements value="2"/>
+     <Element_0 value="2"/>
+     <Element_1 value="2"/>
+    </BlendingModeIndices>
+   </ObjectInScene_1>
+   <ObjectInScene_2>
+    <ObjectClass value="VolumeRenderingObject"/>
+    <FullFileName value="none"/>
+    <ObjectID value="-5"/>
+    <ParentID value="-2"/>
+    <ObjectName value="PRISM Volume Render"/>
+    <AllowChildren value="0"/>
+    <AllowChangeParent value="0"/>
+    <ObjectManagedBySystem value="1"/>
+    <ObjectHidden value="1"/>
+    <AllowHiding value="1"/>
+    <ObjectDeletable value="0"/>
+    <NameChangeable value="0"/>
+    <ObjectListable value="1"/>
+    <AllowManualTransformEdit value="0"/>
+    <LocalTransform value="9.9999999999999623e-01 -8.7422776580273456e-08 0.0000000000000000e+00 0.0000000000000000e+00 8.7422776580273456e-08 9.9999999999999623e-01 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 1.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 1.0000000000000000e+00 "/>
+    <IsAnimating value="0"/>
+    <SamplingDistance value="1.0000000000000000e+00"/>
+    <ShowInteractionWidget value="0"/>
+    <InteractionWidgetLine value="0"/>
+    <InteractionPoint1 value="0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 "/>
+    <InteractionPoint2 value="2.0000000000000000e+02 0.0000000000000000e+00 0.0000000000000000e+00 "/>
+    <RayInitShaderTypeName value="None"/>
+    <StopConditionShaderTypeName value="ERT alpha 99%"/>
+    <ImageSlots>
+     <NumberOfElements value="1"/>
+     <Element_0>
+      <VolumeEnabled value="1"/>
+      <VolumeIs16Bits value="0"/>
+      <LinearSampling value="1"/>
+      <ShaderContributionTypeName value="Add"/>
+      <LastImageObjectId value="0"/>
+      <ColorTransferFunction>
+       <NbColorPoints value="2"/>
+       <ColorPoint_0 value="0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 5.0000000000000000e-01 0.0000000000000000e+00 "/>
+       <ColorPoint_1 value="2.5500000000000000e+02 1.0000000000000000e+00 1.0000000000000000e+00 1.0000000000000000e+00 5.0000000000000000e-01 0.0000000000000000e+00 "/>
+      </ColorTransferFunction>
+      <OpacityTransferFunction>
+       <NbPoints value="2"/>
+       <Point_0 value="0.0000000000000000e+00 0.0000000000000000e+00 5.0000000000000000e-01 0.0000000000000000e+00 "/>
+       <Point_1 value="2.5500000000000000e+02 1.0000000000000000e+00 5.0000000000000000e-01 0.0000000000000000e+00 "/>
+      </OpacityTransferFunction>
+     </Element_0>
+    </ImageSlots>
+   </ObjectInScene_2>
+   <ObjectInScene_3>
+    <ObjectClass value="ImageObject"/>
+    <FullFileName value="./0.mnc"/>
+    <ObjectID value="0"/>
+    <ParentID value="-2"/>
+    <ObjectName value="ct_pig3_e1p1_L4_f1150_bt.mnc"/>
+    <AllowChildren value="1"/>
+    <AllowChangeParent value="1"/>
+    <ObjectManagedBySystem value="0"/>
+    <ObjectHidden value="1"/>
+    <AllowHiding value="1"/>
+    <ObjectDeletable value="1"/>
+    <NameChangeable value="1"/>
+    <ObjectListable value="1"/>
+    <AllowManualTransformEdit value="1"/>
+    <LocalTransform value="9.9999999999999623e-01 -8.7422776580273456e-08 0.0000000000000000e+00 0.0000000000000000e+00 8.7422776580273456e-08 9.9999999999999623e-01 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 1.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 1.0000000000000000e+00 "/>
+    <LabelImage value="0"/>
+    <ViewOutline value="0"/>
+    <LutIndex value="0"/>
+    <LutRange value="0.0000000000000000e+00 2.0669489746093750e+03 "/>
+    <IntensityFactor value="1.0000000000000000e+00"/>
+    <VolumeRenderingEnabled value="0"/>
+    <ColorWindow value="1.0000000000000000e+00"/>
+    <ColorLevel value="5.0000000000000000e-01"/>
+    <EnableShading value="0"/>
+    <Ambiant value="1.0000000000000001e-01"/>
+    <Diffuse value="6.9999999999999996e-01"/>
+    <Specular value="2.0000000000000001e-01"/>
+    <SpecularPower value="1.0000000000000000e+01"/>
+    <EnableGradientOpacity value="1"/>
+    <AutoSampleDistance value="1"/>
+    <SampleDistance value="1.0000000000000000e+00"/>
+    <ShowVolumeClippingBox value="0"/>
+    <VolumeRenderingBounds value="-8.9729897265098401e+01 8.9918540234902252e+01 -1.0628333696289147e+02 7.3365100537109186e+01 -6.7838342476227794e+01 -2.9844125084923448e+01 "/>
+    <ScalarOpacity>
+     <NbPoints value="2"/>
+     <Point_0 value="0.0000000000000000e+00 0.0000000000000000e+00 5.0000000000000000e-01 0.0000000000000000e+00 "/>
+     <Point_1 value="2.5500000000000000e+02 1.0000000000000000e+00 5.0000000000000000e-01 0.0000000000000000e+00 "/>
+    </ScalarOpacity>
+    <GradientOpacity>
+     <NbPoints value="2"/>
+     <Point_0 value="0.0000000000000000e+00 1.0000000000000000e+00 5.0000000000000000e-01 0.0000000000000000e+00 "/>
+     <Point_1 value="2.5500000000000000e+02 1.0000000000000000e+00 5.0000000000000000e-01 0.0000000000000000e+00 "/>
+    </GradientOpacity>
+    <ColorTransferFunction>
+     <NbColorPoints value="2"/>
+     <ColorPoint_0 value="0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 5.0000000000000000e-01 0.0000000000000000e+00 "/>
+     <ColorPoint_1 value="2.5500000000000000e+02 1.0000000000000000e+00 1.0000000000000000e+00 1.0000000000000000e+00 5.0000000000000000e-01 0.0000000000000000e+00 "/>
+    </ColorTransferFunction>
+   </ObjectInScene_3>
+   <ObjectInScene_4>
+    <ObjectClass value="ImageObject"/>
+    <FullFileName value="./1.mnc"/>
+    <ObjectID value="1"/>
+    <ParentID value="0"/>
+    <ObjectName value="ct_pig3_e1p1_L4_f1150.mnc"/>
+    <AllowChildren value="1"/>
+    <AllowChangeParent value="1"/>
+    <ObjectManagedBySystem value="0"/>
+    <ObjectHidden value="0"/>
+    <AllowHiding value="1"/>
+    <ObjectDeletable value="1"/>
+    <NameChangeable value="1"/>
+    <ObjectListable value="1"/>
+    <AllowManualTransformEdit value="1"/>
+    <LocalTransform value="9.9999999999999623e-01 -8.7422776580273456e-08 0.0000000000000000e+00 0.0000000000000000e+00 8.7422776580273456e-08 9.9999999999999623e-01 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 1.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 1.0000000000000000e+00 "/>
+    <LabelImage value="0"/>
+    <ViewOutline value="0"/>
+    <LutIndex value="0"/>
+    <LutRange value="-6.8212102632969618e-13 2.5000000000000000e+03 "/>
+    <IntensityFactor value="1.0000000000000000e+00"/>
+    <VolumeRenderingEnabled value="1"/>
+    <ColorWindow value="1.0000000000000000e+00"/>
+    <ColorLevel value="5.0000000000000000e-01"/>
+    <EnableShading value="1"/>
+    <Ambiant value="1.0000000000000001e-01"/>
+    <Diffuse value="9.0000000000000002e-01"/>
+    <Specular value="2.0000000000000001e-01"/>
+    <SpecularPower value="1.0000000000000000e+01"/>
+    <EnableGradientOpacity value="1"/>
+    <AutoSampleDistance value="1"/>
+    <SampleDistance value="1.0000000000000000e+00"/>
+    <ShowVolumeClippingBox value="0"/>
+    <VolumeRenderingBounds value="-8.9729897265098401e+01 8.9918540234902252e+01 -1.0628333696289147e+02 7.3365100537109186e+01 -6.7838342476227751e+01 -2.9844125084923405e+01 "/>
+    <ScalarOpacity>
+     <NbPoints value="6"/>
+     <Point_0 value="-3.0530000000000000e+03 0.0000000000000000e+00 5.0000000000000000e-01 0.0000000000000000e+00 "/>
+     <Point_1 value="1.1455600000000001e+02 0.0000000000000000e+00 5.0000000000000000e-01 0.0000000000000000e+00 "/>
+     <Point_2 value="1.3722200000000001e+02 6.8627499999999997e-01 5.0000000000000000e-01 0.0000000000000000e+00 "/>
+     <Point_3 value="1.8538900000000001e+02 6.9607799999999997e-01 5.0000000000000000e-01 0.0000000000000000e+00 "/>
+     <Point_4 value="3.9073599999999999e+02 8.3333299999999999e-01 5.0000000000000000e-01 0.0000000000000000e+00 "/>
+     <Point_5 value="3.0420000000000000e+03 8.0392200000000003e-01 5.0000000000000000e-01 0.0000000000000000e+00 "/>
+    </ScalarOpacity>
+    <GradientOpacity>
+     <NbPoints value="2"/>
+     <Point_0 value="0.0000000000000000e+00 1.0000000000000000e+00 5.0000000000000000e-01 0.0000000000000000e+00 "/>
+     <Point_1 value="2.5500000000000000e+02 1.0000000000000000e+00 5.0000000000000000e-01 0.0000000000000000e+00 "/>
+    </GradientOpacity>
+    <ColorTransferFunction>
+     <NbColorPoints value="6"/>
+     <ColorPoint_0 value="-3.0530000000000000e+03 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 5.0000000000000000e-01 0.0000000000000000e+00 "/>
+     <ColorPoint_1 value="1.1455600000000001e+02 6.1568599999999996e-01 3.5686299999999999e-01 1.8431400000000001e-01 5.0000000000000000e-01 0.0000000000000000e+00 "/>
+     <ColorPoint_2 value="1.3722200000000001e+02 8.8235300000000005e-01 6.0392199999999996e-01 2.9019600000000001e-01 5.0000000000000000e-01 0.0000000000000000e+00 "/>
+     <ColorPoint_3 value="1.8538900000000001e+02 1.0000000000000000e+00 1.0000000000000000e+00 1.0000000000000000e+00 5.0000000000000000e-01 0.0000000000000000e+00 "/>
+     <ColorPoint_4 value="3.9073599999999999e+02 1.0000000000000000e+00 9.3703300000000000e-01 9.5453100000000002e-01 5.0000000000000000e-01 0.0000000000000000e+00 "/>
+     <ColorPoint_5 value="3.0420000000000000e+03 8.2745100000000005e-01 6.5882399999999997e-01 1.0000000000000000e+00 5.0000000000000000e-01 0.0000000000000000e+00 "/>
+    </ColorTransferFunction>
+   </ObjectInScene_4>
+   <ObjectInScene_5>
+    <ObjectClass value="USAcquisitionObject"/>
+    <FullFileName value="none"/>
+    <ObjectID value="2"/>
+    <ParentID value="-2"/>
+    <ObjectName value="Acquisition_cavity_L4_1"/>
+    <AllowChildren value="1"/>
+    <AllowChangeParent value="1"/>
+    <ObjectManagedBySystem value="0"/>
+    <ObjectHidden value="0"/>
+    <AllowHiding value="1"/>
+    <ObjectDeletable value="1"/>
+    <NameChangeable value="1"/>
+    <ObjectListable value="1"/>
+    <AllowManualTransformEdit value="1"/>
+    <LocalTransform value="1.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 1.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 1.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 1.0000000000000000e+00 "/>
+    <BaseDirectory value="./acquisitions"/>
+    <AcquisitionType value="0"/>
+    <UsDepth value="9cm"/>
+    <CalibrationMatrix value="1.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 1.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 1.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 1.0000000000000000e+00 "/>
+    <CurrentSlice value="0"/>
+    <SliceLutIndex value="1"/>
+    <SliceOpacity value="1.0000000000000000e+00"/>
+    <StaticSlicesEnabled value="0"/>
+    <NumberOfStaticSlices value="2"/>
+    <StaticSlicesOpacity value="1.0000000000000000e+00"/>
+    <StaticSlicesLutIndex value="0"/>
+    <IsMaskOn value="1"/>
+    <Mask>
+     <MaskSize value="640 480 "/>
+     <MaskOrigin value="4.9687500000000001e-01 9.3333333333333335e-01 "/>
+     <MaskCrop value="7.8125000000000000e-02 8.4375000000000000e-01 "/>
+     <MaskAngles value="-7.8539816339744828e-01 -7.8539816339744828e-01 "/>
+     <MaskDepthTop value="5.0000000000000003e-02"/>
+     <MaskDepthBottom value="8.3333333333333337e-01"/>
+    </Mask>
+   </ObjectInScene_5>
+  </ObjectList>
+  <Plugins>
+   <GPU_RigidRegistration/>
+   <GPU_VolumeReconstruction/>
+   <PedicleScrewNavigation/>
+   <RecordTracking/>
+   <StereotacticFrame/>
+   <USAcquisitionDoubleView/>
+   <USManualCalibration/>
+   <SEEGPathPlanning/>
+   <SequenceIO/>
+  </Plugins>
+  <SceneManager>
+   <CurrentObjectID value="2"/>
+   <ReferenceObjectID value="1"/>
+   <ViewBackgroundColor value="1.9607843137254902e-01 1.9607843137254902e-01 1.9607843137254902e-01 "/>
+   <View3DBackgroundColor value="1.9607843137254902e-01 1.9607843137254902e-01 1.9607843137254902e-01 "/>
+   <Views>
+    <NumberOfViews value="4"/>
+    <View_0>
+     <ViewID value="-2"/>
+     <ViewType value="2"/>
+     <Name value="Transverse"/>
+     <Position value="9.4324722549655265e-02 -1.6459119942004182e+01 5.2988604256510018e+02 "/>
+     <FocalPoint value="9.4324722549655265e-02 -1.6459119942004182e+01 -4.8841233040190154e+01 "/>
+     <Scale value="1.5128774830277257e+02"/>
+     <ViewUp value="-1.7484555316082964e-07 9.9999999999998479e-01 0.0000000000000000e+00 "/>
+     <ViewAngle value="3.0000000000000000e+01"/>
+    </View_0>
+    <View_1>
+     <ViewID value="-3"/>
+     <ViewType value="3"/>
+     <Name value="ThreeD"/>
+     <Position value="-2.4079833372382264e+01 1.3995991136321732e+02 -3.6037702528609503e+02 "/>
+     <FocalPoint value="-1.9699146985134455e+01 -3.4134699504085603e+01 -3.9379514842927762e+01 "/>
+     <Scale value="2.9720723808806497e+02"/>
+     <ViewUp value="0.0000000000000000e+00 0.0000000000000000e+00 1.0000000000000000e+00 "/>
+     <ViewAngle value="3.0000000000000000e+01"/>
+    </View_1>
+    <View_2>
+     <ViewID value="-4"/>
+     <ViewType value="1"/>
+     <Name value="Coronal"/>
+     <Position value="9.4397709023553614e-02 -4.3389309281529381e+02 -4.8841233780575621e+01 "/>
+     <FocalPoint value="9.4324722549325099e-02 -1.6459118034655717e+01 -4.8841233780575621e+01 "/>
+     <Scale value="1.0911220217969421e+02"/>
+     <ViewUp value="0.0000000000000000e+00 0.0000000000000000e+00 1.0000000000000000e+00 "/>
+     <ViewAngle value="3.0000000000000000e+01"/>
+    </View_2>
+    <View_3>
+     <ViewID value="-5"/>
+     <ViewType value="0"/>
+     <Name value="Sagittal"/>
+     <Position value="-4.1834032418526340e+02 -1.6459193103441830e+01 -4.8841233780575621e+01 "/>
+     <FocalPoint value="9.4324361196657977e-02 -1.6459119942004243e+01 -4.8841233780575621e+01 "/>
+     <Scale value="1.0938704561410171e+02"/>
+     <ViewUp value="0.0000000000000000e+00 0.0000000000000000e+00 1.0000000000000000e+00 "/>
+     <ViewAngle value="3.0000000000000000e+01"/>
+    </View_3>
+   </Views>
+  </SceneManager>
+  <AxesHidden value="0"/>
+  <CursorVisible value="1"/>
+  <CutPlanesCursorColor_r value="252"/>
+  <CutPlanesCursorColor_g value="175"/>
+  <CutPlanesCursorColor_b value="62"/>
+  <QuadViewWindow>
+   <CurrentViewWindow value="1"/>
+   <ViewExpanded value="0"/>
+  </QuadViewWindow>
+  <Plugins>
+   <GeneratedSurface/>
+   <GPU_RigidRegistration/>
+   <GPU_VolumeReconstruction/>
+   <LabelVolumeToSurfaces/>
+   <LandmarkRegistrationObject/>
+   <PRISMVolumeRender/>
+   <PedicleScrewNavigation/>
+   <RecordTracking/>
+   <StereotacticFrame/>
+   <USAcquisitionDoubleView/>
+   <USManualCalibration/>
+   <SEEGPathPlanning/>
+   <SequenceIO/>
+   <IbisHardwareIGSIO/>
+  </Plugins>
+ </SaveScene>
+</configuration>
