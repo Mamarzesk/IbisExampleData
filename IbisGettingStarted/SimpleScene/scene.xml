@@ -1,0 +1,570 @@
+<!DOCTYPE configML>
+<configuration>
+ <SaveScene>
+  <IbisVersion value="3.0.0  Dev"/>
+  <IbisRevision value="4a50db1"/>
+  <Version value="6.0"/>
+  <NextObjectID value="19"/>
+  <NumberOfSceneObjects value="19"/>
+  <ObjectList>
+   <ObjectInScene_0>
+    <ObjectClass value="WorldObject"/>
+    <FullFileName value="none"/>
+    <ObjectID value="-2"/>
+    <ParentID value="-1"/>
+    <ObjectName value="World"/>
+    <AllowChildren value="1"/>
+    <AllowChangeParent value="0"/>
+    <ObjectManagedBySystem value="1"/>
+    <ObjectHidden value="0"/>
+    <AllowHiding value="0"/>
+    <ObjectDeletable value="0"/>
+    <NameChangeable value="0"/>
+    <ObjectListable value="1"/>
+    <AllowManualTransformEdit value="0"/>
+    <LocalTransform value="1.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 1.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 1.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 1.0000000000000000e+00 "/>
+   </ObjectInScene_0>
+   <ObjectInScene_1>
+    <ObjectClass value="TripleCutPlaneObject"/>
+    <FullFileName value="none"/>
+    <ObjectID value="-3"/>
+    <ParentID value="-2"/>
+    <ViewPlanes value="1 1 1 "/>
+    <PlanesPosition value="6.9186579381026647e+01 7.1407009553596964e+01 -3.0091199874877930e+01 "/>
+    <SliceThickness value="1"/>
+    <SliceMixMode>
+     <NumberOfElements value="1"/>
+     <Element_0 value="2"/>
+    </SliceMixMode>
+    <BlendingModeIndices>
+     <NumberOfElements value="1"/>
+     <Element_0 value="2"/>
+    </BlendingModeIndices>
+   </ObjectInScene_1>
+   <ObjectInScene_2>
+    <ObjectClass value="VolumeRenderingObject"/>
+    <FullFileName value="none"/>
+    <ObjectID value="-5"/>
+    <ParentID value="-2"/>
+    <ObjectName value="PRISM Volume Render"/>
+    <AllowChildren value="0"/>
+    <AllowChangeParent value="0"/>
+    <ObjectManagedBySystem value="1"/>
+    <ObjectHidden value="1"/>
+    <AllowHiding value="1"/>
+    <ObjectDeletable value="0"/>
+    <NameChangeable value="0"/>
+    <ObjectListable value="1"/>
+    <AllowManualTransformEdit value="0"/>
+    <LocalTransform value="-5.7472476714054355e-01 -8.1626115933301580e-01 5.8388027878742421e-02 1.9210706201813110e+02 7.9948133062798565e-01 -5.4481289733287397e-01 2.5299902939945207e-01 1.3530185355017585e+02 -1.7470273040955422e-01 1.9208494647962443e-01 9.6570302335830260e-01 1.4095651684760404e+02 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 1.0000000000000000e+00 "/>
+    <IsAnimating value="0"/>
+    <SamplingDistance value="1.0000000000000000e+00"/>
+    <ShowInteractionWidget value="0"/>
+    <InteractionWidgetLine value="0"/>
+    <InteractionPoint1 value="0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 "/>
+    <InteractionPoint2 value="2.0000000000000000e+02 0.0000000000000000e+00 0.0000000000000000e+00 "/>
+    <RayInitShaderTypeName value="None"/>
+    <StopConditionShaderTypeName value="ERT alpha 99%"/>
+    <ImageSlots>
+     <NumberOfElements value="1"/>
+     <Element_0>
+      <VolumeEnabled value="1"/>
+      <VolumeIs16Bits value="0"/>
+      <LinearSampling value="1"/>
+      <ShaderContributionTypeName value="Add"/>
+      <LastImageObjectId value="3"/>
+      <ColorTransferFunction>
+       <NbColorPoints value="2"/>
+       <ColorPoint_0 value="0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 5.0000000000000000e-01 0.0000000000000000e+00 "/>
+       <ColorPoint_1 value="2.5500000000000000e+02 1.0000000000000000e+00 1.0000000000000000e+00 1.0000000000000000e+00 5.0000000000000000e-01 0.0000000000000000e+00 "/>
+      </ColorTransferFunction>
+      <OpacityTransferFunction>
+       <NbPoints value="2"/>
+       <Point_0 value="0.0000000000000000e+00 0.0000000000000000e+00 5.0000000000000000e-01 0.0000000000000000e+00 "/>
+       <Point_1 value="2.5500000000000000e+02 1.0000000000000000e+00 5.0000000000000000e-01 0.0000000000000000e+00 "/>
+      </OpacityTransferFunction>
+     </Element_0>
+    </ImageSlots>
+   </ObjectInScene_2>
+   <ObjectInScene_3>
+    <ObjectClass value="LandmarkRegistrationObject"/>
+    <FullFileName value="none"/>
+    <ObjectID value="4"/>
+    <ParentID value="-2"/>
+    <ObjectName value="Landmark Registration"/>
+    <AllowChildren value="1"/>
+    <AllowChangeParent value="1"/>
+    <ObjectManagedBySystem value="0"/>
+    <ObjectHidden value="1"/>
+    <AllowHiding value="1"/>
+    <ObjectDeletable value="1"/>
+    <NameChangeable value="1"/>
+    <ObjectListable value="1"/>
+    <AllowManualTransformEdit value="0"/>
+    <LocalTransform value="-5.4442797565411771e-01 -8.3677297848675214e-01 5.8388027878742331e-02 1.9210706201813110e+02 8.1890833854335132e-01 -5.1515106928657628e-01 2.5299902939945201e-01 1.3530185355017585e+02 -1.8162409638956828e-01 1.8555419231940401e-01 9.6570302335830260e-01 1.4095651684760404e+02 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 1.0000000000000000e+00 "/>
+    <Registered value="1"/>
+    <SourcePointsObjectId value="7"/>
+    <TargetPointsObjectId value="13"/>
+    <RegistrationTargetObjectId value="-2"/>
+    <NumberOfPoints value="5"/>
+    <PointsEnabledStatus value="1 1 1 1 1 "/>
+    <ScalingAllowed value="0"/>
+   </ObjectInScene_3>
+   <ObjectInScene_4>
+    <ObjectClass value="PolyDataObject"/>
+    <FullFileName value="./0.obj"/>
+    <ObjectID value="0"/>
+    <ParentID value="4"/>
+    <ObjectName value="fred_brain.obj"/>
+    <AllowChildren value="1"/>
+    <AllowChangeParent value="1"/>
+    <ObjectManagedBySystem value="0"/>
+    <ObjectHidden value="0"/>
+    <AllowHiding value="1"/>
+    <ObjectDeletable value="1"/>
+    <NameChangeable value="1"/>
+    <ObjectListable value="1"/>
+    <AllowManualTransformEdit value="1"/>
+    <LocalTransform value="1.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 1.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 1.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 1.0000000000000000e+00 "/>
+    <RenderingMode value="2"/>
+    <LutIndex value="0"/>
+    <ScalarsVisible value="0"/>
+    <VertexColorMode value="0"/>
+    <ScalarSourceObjectId value="-1"/>
+    <Opacity value="1.0000000000000000e+00"/>
+    <ObjectColor value="1.0000000000000000e+00 1.0000000000000000e+00 1.0000000000000000e+00 "/>
+    <CrossSectionVisible value="0"/>
+    <ClippingEnabled value="0"/>
+    <ClippingPlanesOrientation value="1 1 1 "/>
+    <ShowTexture value="0"/>
+    <TextureFileName value=""/>
+   </ObjectInScene_4>
+   <ObjectInScene_5>
+    <ObjectClass value="ImageObject"/>
+    <FullFileName value="./3.mnc"/>
+    <ObjectID value="3"/>
+    <ParentID value="4"/>
+    <ObjectName value="fred.mnc"/>
+    <AllowChildren value="1"/>
+    <AllowChangeParent value="1"/>
+    <ObjectManagedBySystem value="0"/>
+    <ObjectHidden value="0"/>
+    <AllowHiding value="1"/>
+    <ObjectDeletable value="1"/>
+    <NameChangeable value="1"/>
+    <ObjectListable value="1"/>
+    <AllowManualTransformEdit value="1"/>
+    <LocalTransform value="9.9932839524102757e-01 -3.6643668825496592e-02 0.0000000000000000e+00 0.0000000000000000e+00 3.6643668825496592e-02 9.9932839524102757e-01 -1.1102230000000000e-16 0.0000000000000000e+00 4.0682643934449304e-18 0.0000000000000000e+00 1.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 1.0000000000000000e+00 "/>
+    <LabelImage value="0"/>
+    <ViewOutline value="0"/>
+    <LutIndex value="0"/>
+    <LutRange value="0.0000000000000000e+00 2.0253143310546875e+02 "/>
+    <IntensityFactor value="9.8999999999999999e-01"/>
+    <VolumeRenderingEnabled value="0"/>
+    <ColorWindow value="1.0000000000000000e+00"/>
+    <ColorLevel value="5.0000000000000000e-01"/>
+    <EnableShading value="0"/>
+    <Ambiant value="1.0000000000000001e-01"/>
+    <Diffuse value="6.9999999999999996e-01"/>
+    <Specular value="2.0000000000000001e-01"/>
+    <SpecularPower value="1.0000000000000000e+01"/>
+    <EnableGradientOpacity value="1"/>
+    <AutoSampleDistance value="1"/>
+    <SampleDistance value="1.0000000000000000e+00"/>
+    <ShowVolumeClippingBox value="0"/>
+    <VolumeRenderingBounds value="-6.2040700000000001e+01 7.8959299999999999e+01 -3.3499999999999993e+01 1.7150000000000000e+02 -1.4184299999999999e+02 8.7157000000000011e+01 "/>
+    <ScalarOpacity>
+     <NbPoints value="2"/>
+     <Point_0 value="0.0000000000000000e+00 0.0000000000000000e+00 5.0000000000000000e-01 0.0000000000000000e+00 "/>
+     <Point_1 value="2.5500000000000000e+02 1.0000000000000000e+00 5.0000000000000000e-01 0.0000000000000000e+00 "/>
+    </ScalarOpacity>
+    <GradientOpacity>
+     <NbPoints value="2"/>
+     <Point_0 value="0.0000000000000000e+00 1.0000000000000000e+00 5.0000000000000000e-01 0.0000000000000000e+00 "/>
+     <Point_1 value="2.5500000000000000e+02 1.0000000000000000e+00 5.0000000000000000e-01 0.0000000000000000e+00 "/>
+    </GradientOpacity>
+    <ColorTransferFunction>
+     <NbColorPoints value="2"/>
+     <ColorPoint_0 value="0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 5.0000000000000000e-01 0.0000000000000000e+00 "/>
+     <ColorPoint_1 value="2.5500000000000000e+02 1.0000000000000000e+00 1.0000000000000000e+00 1.0000000000000000e+00 5.0000000000000000e-01 0.0000000000000000e+00 "/>
+    </ColorTransferFunction>
+   </ObjectInScene_5>
+   <ObjectInScene_6>
+    <ObjectClass value="PolyDataObject"/>
+    <FullFileName value="./2.obj"/>
+    <ObjectID value="2"/>
+    <ParentID value="4"/>
+    <ObjectName value="fred_tumour.obj"/>
+    <AllowChildren value="1"/>
+    <AllowChangeParent value="1"/>
+    <ObjectManagedBySystem value="0"/>
+    <ObjectHidden value="0"/>
+    <AllowHiding value="1"/>
+    <ObjectDeletable value="1"/>
+    <NameChangeable value="1"/>
+    <ObjectListable value="1"/>
+    <AllowManualTransformEdit value="1"/>
+    <LocalTransform value="1.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 1.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 1.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 1.0000000000000000e+00 "/>
+    <RenderingMode value="2"/>
+    <LutIndex value="0"/>
+    <ScalarsVisible value="0"/>
+    <VertexColorMode value="0"/>
+    <ScalarSourceObjectId value="-1"/>
+    <Opacity value="1.0000000000000000e+00"/>
+    <ObjectColor value="0.0000000000000000e+00 3.9215698838233948e-01 0.0000000000000000e+00 "/>
+    <CrossSectionVisible value="0"/>
+    <ClippingEnabled value="0"/>
+    <ClippingPlanesOrientation value="1 1 1 "/>
+    <ShowTexture value="0"/>
+    <TextureFileName value=""/>
+   </ObjectInScene_6>
+   <ObjectInScene_7>
+    <ObjectClass value="PointsObject"/>
+    <FullFileName value="none"/>
+    <ObjectID value="7"/>
+    <ParentID value="4"/>
+    <ObjectName value="RegistrationSourcePoints"/>
+    <AllowChildren value="1"/>
+    <AllowChangeParent value="1"/>
+    <ObjectManagedBySystem value="0"/>
+    <ObjectHidden value="1"/>
+    <AllowHiding value="1"/>
+    <ObjectDeletable value="1"/>
+    <NameChangeable value="1"/>
+    <ObjectListable value="0"/>
+    <AllowManualTransformEdit value="1"/>
+    <LocalTransform value="1.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 1.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 1.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 1.0000000000000000e+00 "/>
+    <PointRadius3D value="2.0000000000000000e+00"/>
+    <PointRadius2D value="2.0000000000000000e+01"/>
+    <LabelSize value="8.0000000000000000e+00"/>
+    <EnabledColor value="1.0000000000000000e+00 6.9999999999999996e-01 0.0000000000000000e+00 "/>
+    <DisabledColor value="6.9999999999999996e-01 6.9999999999999996e-01 5.9999999999999998e-01 "/>
+    <SelectededColor value="0.0000000000000000e+00 1.0000000000000000e+00 0.0000000000000000e+00 "/>
+    <LineToPointerColor value="1.0000000000000000e+00 1.0000000000000000e+00 1.0000000000000000e+00 "/>
+    <Opacity value="1.0000000000000000e+00"/>
+    <SelectedPointIndex value="0"/>
+    <NumberOfPoints value="5"/>
+    <Point_0>
+     <PointName value="1"/>
+     <PointCoordinates value="6.6523498535156250e+01 7.3894302368164063e+01 -3.0091199874877930e+01 "/>
+     <PointTimeStamp value=""/>
+    </Point_0>
+    <Point_1>
+     <PointName value="2"/>
+     <PointCoordinates value="4.7103298187255859e+01 1.1566600036621094e+02 -2.0268600463867188e+01 "/>
+     <PointTimeStamp value=""/>
+    </Point_1>
+    <Point_2>
+     <PointName value="3"/>
+     <PointCoordinates value="7.5177898406982422e+00 1.4314700317382813e+02 -2.7343000411987305e+01 "/>
+     <PointTimeStamp value=""/>
+    </Point_2>
+    <Point_3>
+     <PointName value="4"/>
+     <PointCoordinates value="-3.5370498657226563e+01 1.1273500061035156e+02 -3.2206600189208984e+01 "/>
+     <PointTimeStamp value=""/>
+    </Point_3>
+    <Point_4>
+     <PointName value="5"/>
+     <PointCoordinates value="-4.7799198150634766e+01 7.4627098083496094e+01 -3.9593601226806641e+01 "/>
+     <PointTimeStamp value=";"/>
+    </Point_4>
+   </ObjectInScene_7>
+   <ObjectInScene_8>
+    <ObjectClass value="PointRepresentation"/>
+    <FullFileName value="none"/>
+    <ObjectID value="8"/>
+    <ParentID value="7"/>
+    <ObjectName value="1"/>
+    <AllowChildren value="0"/>
+    <AllowChangeParent value="1"/>
+    <ObjectManagedBySystem value="0"/>
+    <ObjectHidden value="1"/>
+    <AllowHiding value="1"/>
+    <ObjectDeletable value="1"/>
+    <NameChangeable value="1"/>
+    <ObjectListable value="0"/>
+    <AllowManualTransformEdit value="1"/>
+    <LocalTransform value="1.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 1.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 1.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 1.0000000000000000e+00 "/>
+   </ObjectInScene_8>
+   <ObjectInScene_9>
+    <ObjectClass value="PointRepresentation"/>
+    <FullFileName value="none"/>
+    <ObjectID value="9"/>
+    <ParentID value="7"/>
+    <ObjectName value="2"/>
+    <AllowChildren value="0"/>
+    <AllowChangeParent value="1"/>
+    <ObjectManagedBySystem value="0"/>
+    <ObjectHidden value="1"/>
+    <AllowHiding value="1"/>
+    <ObjectDeletable value="1"/>
+    <NameChangeable value="1"/>
+    <ObjectListable value="0"/>
+    <AllowManualTransformEdit value="1"/>
+    <LocalTransform value="1.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 1.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 1.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 1.0000000000000000e+00 "/>
+   </ObjectInScene_9>
+   <ObjectInScene_10>
+    <ObjectClass value="PointRepresentation"/>
+    <FullFileName value="none"/>
+    <ObjectID value="10"/>
+    <ParentID value="7"/>
+    <ObjectName value="3"/>
+    <AllowChildren value="0"/>
+    <AllowChangeParent value="1"/>
+    <ObjectManagedBySystem value="0"/>
+    <ObjectHidden value="1"/>
+    <AllowHiding value="1"/>
+    <ObjectDeletable value="1"/>
+    <NameChangeable value="1"/>
+    <ObjectListable value="0"/>
+    <AllowManualTransformEdit value="1"/>
+    <LocalTransform value="1.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 1.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 1.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 1.0000000000000000e+00 "/>
+   </ObjectInScene_10>
+   <ObjectInScene_11>
+    <ObjectClass value="PointRepresentation"/>
+    <FullFileName value="none"/>
+    <ObjectID value="11"/>
+    <ParentID value="7"/>
+    <ObjectName value="4"/>
+    <AllowChildren value="0"/>
+    <AllowChangeParent value="1"/>
+    <ObjectManagedBySystem value="0"/>
+    <ObjectHidden value="1"/>
+    <AllowHiding value="1"/>
+    <ObjectDeletable value="1"/>
+    <NameChangeable value="1"/>
+    <ObjectListable value="0"/>
+    <AllowManualTransformEdit value="1"/>
+    <LocalTransform value="1.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 1.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 1.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 1.0000000000000000e+00 "/>
+   </ObjectInScene_11>
+   <ObjectInScene_12>
+    <ObjectClass value="PointRepresentation"/>
+    <FullFileName value="none"/>
+    <ObjectID value="12"/>
+    <ParentID value="7"/>
+    <ObjectName value="5"/>
+    <AllowChildren value="0"/>
+    <AllowChangeParent value="1"/>
+    <ObjectManagedBySystem value="0"/>
+    <ObjectHidden value="1"/>
+    <AllowHiding value="1"/>
+    <ObjectDeletable value="1"/>
+    <NameChangeable value="1"/>
+    <ObjectListable value="0"/>
+    <AllowManualTransformEdit value="1"/>
+    <LocalTransform value="1.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 1.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 1.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 1.0000000000000000e+00 "/>
+   </ObjectInScene_12>
+   <ObjectInScene_13>
+    <ObjectClass value="PointsObject"/>
+    <FullFileName value="none"/>
+    <ObjectID value="13"/>
+    <ParentID value="-2"/>
+    <ObjectName value="RegistrationTargetPoints"/>
+    <AllowChildren value="1"/>
+    <AllowChangeParent value="1"/>
+    <ObjectManagedBySystem value="0"/>
+    <ObjectHidden value="1"/>
+    <AllowHiding value="1"/>
+    <ObjectDeletable value="1"/>
+    <NameChangeable value="1"/>
+    <ObjectListable value="0"/>
+    <AllowManualTransformEdit value="1"/>
+    <LocalTransform value="1.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 1.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 1.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 1.0000000000000000e+00 "/>
+    <PointRadius3D value="2.0000000000000000e+00"/>
+    <PointRadius2D value="2.0000000000000000e+01"/>
+    <LabelSize value="8.0000000000000000e+00"/>
+    <EnabledColor value="1.0000000000000000e+00 6.9999999999999996e-01 0.0000000000000000e+00 "/>
+    <DisabledColor value="6.9999999999999996e-01 6.9999999999999996e-01 5.9999999999999998e-01 "/>
+    <SelectededColor value="0.0000000000000000e+00 1.0000000000000000e+00 0.0000000000000000e+00 "/>
+    <LineToPointerColor value="1.0000000000000000e+00 1.0000000000000000e+00 1.0000000000000000e+00 "/>
+    <Opacity value="1.0000000000000000e+00"/>
+    <SelectedPointIndex value="0"/>
+    <NumberOfPoints value="5"/>
+    <Point_0>
+     <PointName value="1"/>
+     <PointCoordinates value="9.2372901916503906e+01 1.4408999633789063e+02 1.1320899963378906e+02 "/>
+     <PointTimeStamp value=""/>
+    </Point_0>
+    <Point_1>
+     <PointName value="2"/>
+     <PointCoordinates value="6.8465103149414063e+01 1.0938400268554688e+02 1.3484599304199219e+02 "/>
+     <PointTimeStamp value=""/>
+    </Point_1>
+    <Point_2>
+     <PointName value="3"/>
+     <PointCoordinates value="6.6567497253417969e+01 6.0479598999023438e+01 1.3942999267578125e+02 "/>
+     <PointTimeStamp value=""/>
+    </Point_2>
+    <Point_3>
+     <PointName value="4"/>
+     <PointCoordinates value="1.1530200195312500e+02 4.0271198272705078e+01 1.3719799804687500e+02 "/>
+     <PointTimeStamp value=""/>
+    </Point_3>
+    <Point_4>
+     <PointName value="5"/>
+     <PointCoordinates value="1.5324400329589844e+02 4.7644001007080078e+01 1.2532800292968750e+02 "/>
+     <PointTimeStamp value=";"/>
+    </Point_4>
+   </ObjectInScene_13>
+   <ObjectInScene_14>
+    <ObjectClass value="PointRepresentation"/>
+    <FullFileName value="none"/>
+    <ObjectID value="14"/>
+    <ParentID value="13"/>
+    <ObjectName value="1"/>
+    <AllowChildren value="0"/>
+    <AllowChangeParent value="1"/>
+    <ObjectManagedBySystem value="0"/>
+    <ObjectHidden value="1"/>
+    <AllowHiding value="1"/>
+    <ObjectDeletable value="1"/>
+    <NameChangeable value="1"/>
+    <ObjectListable value="0"/>
+    <AllowManualTransformEdit value="1"/>
+    <LocalTransform value="1.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 1.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 1.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 1.0000000000000000e+00 "/>
+   </ObjectInScene_14>
+   <ObjectInScene_15>
+    <ObjectClass value="PointRepresentation"/>
+    <FullFileName value="none"/>
+    <ObjectID value="15"/>
+    <ParentID value="13"/>
+    <ObjectName value="2"/>
+    <AllowChildren value="0"/>
+    <AllowChangeParent value="1"/>
+    <ObjectManagedBySystem value="0"/>
+    <ObjectHidden value="1"/>
+    <AllowHiding value="1"/>
+    <ObjectDeletable value="1"/>
+    <NameChangeable value="1"/>
+    <ObjectListable value="0"/>
+    <AllowManualTransformEdit value="1"/>
+    <LocalTransform value="1.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 1.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 1.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 1.0000000000000000e+00 "/>
+   </ObjectInScene_15>
+   <ObjectInScene_16>
+    <ObjectClass value="PointRepresentation"/>
+    <FullFileName value="none"/>
+    <ObjectID value="16"/>
+    <ParentID value="13"/>
+    <ObjectName value="3"/>
+    <AllowChildren value="0"/>
+    <AllowChangeParent value="1"/>
+    <ObjectManagedBySystem value="0"/>
+    <ObjectHidden value="1"/>
+    <AllowHiding value="1"/>
+    <ObjectDeletable value="1"/>
+    <NameChangeable value="1"/>
+    <ObjectListable value="0"/>
+    <AllowManualTransformEdit value="1"/>
+    <LocalTransform value="1.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 1.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 1.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 1.0000000000000000e+00 "/>
+   </ObjectInScene_16>
+   <ObjectInScene_17>
+    <ObjectClass value="PointRepresentation"/>
+    <FullFileName value="none"/>
+    <ObjectID value="17"/>
+    <ParentID value="13"/>
+    <ObjectName value="4"/>
+    <AllowChildren value="0"/>
+    <AllowChangeParent value="1"/>
+    <ObjectManagedBySystem value="0"/>
+    <ObjectHidden value="1"/>
+    <AllowHiding value="1"/>
+    <ObjectDeletable value="1"/>
+    <NameChangeable value="1"/>
+    <ObjectListable value="0"/>
+    <AllowManualTransformEdit value="1"/>
+    <LocalTransform value="1.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 1.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 1.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 1.0000000000000000e+00 "/>
+   </ObjectInScene_17>
+   <ObjectInScene_18>
+    <ObjectClass value="PointRepresentation"/>
+    <FullFileName value="none"/>
+    <ObjectID value="18"/>
+    <ParentID value="13"/>
+    <ObjectName value="5"/>
+    <AllowChildren value="0"/>
+    <AllowChangeParent value="1"/>
+    <ObjectManagedBySystem value="0"/>
+    <ObjectHidden value="1"/>
+    <AllowHiding value="1"/>
+    <ObjectDeletable value="1"/>
+    <NameChangeable value="1"/>
+    <ObjectListable value="0"/>
+    <AllowManualTransformEdit value="1"/>
+    <LocalTransform value="1.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 1.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 1.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 0.0000000000000000e+00 1.0000000000000000e+00 "/>
+   </ObjectInScene_18>
+  </ObjectList>
+  <Plugins>
+   <GPU_RigidRegistration/>
+   <GPU_VolumeReconstruction/>
+   <USAcquisitionDoubleView/>
+  </Plugins>
+  <SceneManager>
+   <CurrentObjectID value="4"/>
+   <ReferenceObjectID value="3"/>
+   <ViewBackgroundColor value="1.9607843137254902e-01 1.9607843137254902e-01 1.9607843137254902e-01 "/>
+   <View3DBackgroundColor value="1.9607843137254902e-01 1.9607843137254902e-01 1.9607843137254902e-01 "/>
+   <Views>
+    <NumberOfViews value="4"/>
+    <View_0>
+     <ViewID value="-2"/>
+     <ViewType value="2"/>
+     <Name value="Transverse"/>
+     <Position value="1.5833554016146962e+02 2.2325190977747621e+02 6.0611500536093274e+02 "/>
+     <FocalPoint value="1.2932676894316506e+02 9.7555063541403499e+01 1.2632729738072982e+02 "/>
+     <Scale value="1.2858838941968358e+02"/>
+     <ViewUp value="-8.1626115933300036e-01 -5.4481289733288285e-01 1.9208494647966523e-01 "/>
+     <ViewAngle value="3.0000000000000000e+01"/>
+    </View_0>
+    <View_1>
+     <ViewID value="-3"/>
+     <ViewType value="3"/>
+     <Name value="ThreeD"/>
+     <Position value="1.0719078581032517e+02 -2.0120415729639660e+02 4.3124309487939445e+02 "/>
+     <FocalPoint value="1.4017253066617045e+02 1.1248957911152704e+02 1.1445428998158735e+02 "/>
+     <Scale value="2.6486712594053648e+02"/>
+     <ViewUp value="5.8388027878749679e-02 2.5299902939946456e-01 9.6570302335829894e-01 "/>
+     <ViewAngle value="3.3000000000000000e+01"/>
+    </View_1>
+    <View_2>
+     <ViewID value="-4"/>
+     <ViewType value="1"/>
+     <Name value="Coronal"/>
+     <Position value="5.5339732764947428e+02 3.8060063903409548e+02 2.6533781048663556e+01 "/>
+     <FocalPoint value="1.2932676888748193e+02 9.7555063300124829e+01 1.2632729645976363e+02 "/>
+     <Scale value="1.3446375074927803e+02"/>
+     <ViewUp value="5.8388027878777199e-02 2.5299902939946067e-01 9.6570302335829827e-01 "/>
+     <ViewAngle value="3.0000000000000000e+01"/>
+    </View_2>
+    <View_3>
+     <ViewID value="-5"/>
+     <ViewType value="0"/>
+     <Name value="Sagittal"/>
+     <Position value="4.7057581991502855e+02 -3.7714562995244950e+02 2.3005893353675580e+02 "/>
+     <FocalPoint value="1.2932676887564293e+02 9.7555063316593618e+01 1.2632729645616487e+02 "/>
+     <Scale value="1.5367660936483875e+02"/>
+     <ViewUp value="5.8388027878776394e-02 2.5299902939945718e-01 9.6570302335829916e-01 "/>
+     <ViewAngle value="3.0000000000000000e+01"/>
+    </View_3>
+   </Views>
+  </SceneManager>
+  <AxesHidden value="0"/>
+  <CursorVisible value="1"/>
+  <CutPlanesCursorColor_r value="252"/>
+  <CutPlanesCursorColor_g value="175"/>
+  <CutPlanesCursorColor_b value="62"/>
+  <QuadViewWindow>
+   <CurrentViewWindow value="1"/>
+   <ViewExpanded value="0"/>
+  </QuadViewWindow>
+  <Plugins>
+   <GeneratedSurface/>
+   <GPU_RigidRegistration/>
+   <GPU_VolumeReconstruction/>
+   <LabelVolumeToSurfaces/>
+   <LandmarkRegistrationObject/>
+   <PRISMVolumeRender/>
+   <USAcquisitionDoubleView/>
+   <IbisHardwareIGSIO/>
+  </Plugins>
+ </SaveScene>
+</configuration>
